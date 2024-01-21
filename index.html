@@ -34,26 +34,23 @@
             <p class="cool-text">Széleskörű támogatást biztosítunk, hogy modelljeink maximálisan kihasználhassák potenciáljukat.</p>
         </div>
 
-        <!-- More service sections can be added -->
+        <!-- Q&A Section -->
+        <h2 class="cool-text">Gyakran Ismételt Kérdések</h2>
+        <div class="qa-section">
+            <div class="question" onclick="toggleAnswer(1)">
+                <h3 class="cool-text">Hogyan tudok jelentkezni?</h3>
+                <p class="answer">A jelentkezéshez töltse ki az űrlapot a "Jelentkezés" szakaszban, majd küldje el számunkra.</p>
+            </div>
+            <div class="question" onclick="toggleAnswer(2)">
+                <h3 class="cool-text">Mik a szolgáltatások díjai?</h3>
+                <p class="answer">A díjakat az egyes szolgáltatások típusa és terjedelme alapján szabjuk meg. A részletekért kérjük, lépjen kapcsolatba velünk.</p>
+            </div>
+            <!-- Add more questions and answers as needed -->
+        </div>
 
         <h2 class="cool-text">Jelentkezés</h2>
         <form id="signupForm" onsubmit="submitForm(event)">
-            <label for="name" class="cool-text">Név:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email" class="cool-text">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="instagram" class="cool-text">Instagram:</label>
-            <input type="text" id="instagram" name="instagram" required>
-
-            <label for="hasOnlyFans" class="cool-text">Van már OnlyFans fiókja?</label>
-            <select id="hasOnlyFans" name="hasOnlyFans" required>
-                <option value="yes">Igen</option>
-                <option value="no">Nem</option>
-            </select>
-
-            <button type="submit" class="cool-button">Jelentkezés</button>
+            <!-- Your form elements go here -->
         </form>
 
         <h2 class="cool-text">Kapcsolat</h2>
@@ -63,3 +60,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
