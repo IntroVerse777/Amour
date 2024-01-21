@@ -11,10 +11,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
     color: #fff; /* Change text color to your preference */
+    overflow-y: auto; /* Add scrollability */
+    min-height: 100vh; /* Use min-height for flexibility */
 }
+
 
 header {
     text-align: center;
