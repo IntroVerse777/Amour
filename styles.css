@@ -54,6 +54,12 @@ h2 {
     color: #d3468d; /* Change h2 text color to your preference */
 }
 
+/* Additional styles for h3 */
+.service h3 {
+    color: #ff65a3; /* Pink color, you can adjust this to your preference */
+}
+
+
 form {
     display: flex;
     flex-direction: column;
