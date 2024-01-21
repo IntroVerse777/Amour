@@ -100,20 +100,6 @@ button:hover {
 
 /* Add this to your styles.css file */
 
-/* Q&A Section styles */
-.qa-section {
-    margin-top: 30px;
-}
-
-.question {
-    cursor: pointer;
-    margin-bottom: 15px;
-}
-
-.answer {
-    display: none;
-}
-
 /* Cool text style */
 .cool-text {
     font-size: 24px;
@@ -140,5 +126,3 @@ button:hover {
 .cool-button:hover {
     background-color: #d3468d;
 }
-
-
