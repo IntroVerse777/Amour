@@ -92,3 +92,33 @@ button:hover {
     background-color: #d3468d;
 }
 
+/* Add this to your styles.css file */
+
+/* Cool text style */
+.cool-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db; /* Blue color, you can change this to your preference */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adds a subtle text shadow */
+    letter-spacing: 1px; /* Adjust letter spacing for style */
+    text-transform: uppercase; /* Converts text to uppercase */
+}
+
+/* Cool button style */
+.cool-button {
+    background-color: #ff69b4;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.cool-button:hover {
+    background-color: #d3468d;
+}
+
+
