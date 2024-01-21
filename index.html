@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amour Gestion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Amour Gestion</h1>
+    </header>
+
+    <div class="container">
+        <div class="about-us">
+            <h2>Amour Gestion</h2>
+            <img src="kepek/pexels-eugene-lisyuk-6523162.jpg" alt="Amour Gestion" width="300" height="200">
+            <p>Amour Gestion egy profi OnlyFans menedzsment szolgáltatás, amely diszkréten segít modelljeinek a hatékonyabb és eredményesebb működésben. Az általunk nyújtott szolgáltatások magukban foglalják a promóciót, ügyfélszolgálatot és egyéb támogatást, hogy segítsük a modelljeinket a siker elérésében.</p>
+        </div>
+        
+        <h2>Jelentkezés</h2>
+        <form id="signupForm" onsubmit="submitForm(event)">
+            <label for="name">Név:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="instagram">Instagram:</label>
+            <input type="text" id="instagram" name="instagram" required>
+
+            <label for="hasOnlyFans">Van már OnlyFans fiókja?</label>
+            <select id="hasOnlyFans" name="hasOnlyFans" required>
+                <option value="yes">Igen</option>
+                <option value="no">Nem</option>
+            </select>
+
+            <button type="submit">Jelentkezés</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
