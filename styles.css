@@ -1,0 +1,134 @@
+/* Add this to your styles.css file */
+
+body {
+    font-family: 'Your Chosen Font', sans-serif;
+    background-image: url(kepek/36.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff; /* Change text color to your preference */
+    overflow-y: auto; /* Add scrollability */
+    min-height: 100vh; /* Use min-height for flexibility */
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #ff69b4; /* Change header text color to your preference */
+    font-size: 24px;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333; /* Change text color to your preference */
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Adjust the margin to create space between image and paragraph */
+}
+
+h2 {
+    color: #d3468d; /* Change h2 text color to your preference */
+}
+
+/* Additional styles for h3 */
+.service h3 {
+    color: #ff65a3; /* Pink color, you can adjust this to your preference */
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    margin: 10px 0;
+    color: #333;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff69b4;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #d3468d;
+}
+
+/* Add this to your styles.css file */
+
+/* Cool text style */
+.cool-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db; /* Blue color, you can change this to your preference */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adds a subtle text shadow */
+    letter-spacing: 1px; /* Adjust letter spacing for style */
+    text-transform: uppercase; /* Converts text to uppercase */
+}
+
+/* Cool button style */
+.cool-button {
+    background-color: #ff69b4;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.cool-button:hover {
+    background-color: #d3468d;
+}
+
+.important-word {
+    color: #ff69b4; /* Pink color or any color you prefer */
+    font-weight: bold; /* Make the text bold, if desired */
+    /* Add any other styling to make it stand out */
+}
